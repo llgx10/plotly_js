@@ -1,0 +1,71 @@
+/* Body styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    /* Use Roboto font */
+    background-color: #212121;
+    /* Dark background color */
+    color: #fff;
+    /* Light text color */
+    margin: 0;
+    /* Remove default body margin */
+    padding: 0;
+    /* Remove default body padding */
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    /* Dark header background color */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: 700;
+    /* Bold font weight */
+}
+
+/* Paragraph styles */
+p {
+    margin: 0;
+    font-weight: 400;
+    /* Normal font weight */
+}
+
+/* Gallery row styles */
+.gallery-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+/* Chart styles */
+.chart {
+    width: calc(33.33% - 100px);
+    margin-bottom: 20px;
+    /* Dark chart background color */
+    border-radius: 50px;
+    padding: 50px;
+    box-sizing: border-box;
+    height: 300px;
+}
+
+/* Chart title styles */
+.chart h2 {
+    margin-top: 0;
+}
+
+/* Chart label styles */
+.chart p {
+    margin: 0;
+    color: #ccc;
+    /* Light label text color */
+}
+
+/* Adjustments for Plotly.js charts */
+.plotly-graph-div {
+    width: 100%;
+    height: 100%;
+}
